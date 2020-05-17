@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/pixels"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:gravity="center"
+        android:layout_marginTop="350dp"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="The Best "
+            android:textColor="#ffff"
+            android:textSize="40dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="world models "
+            android:textColor="#ffff"
+            android:textSize="45dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:layout_weight="1"
+            android:gravity="center"
+android:padding="13dp"
+            android:text="is the  easiest way to find the modles for your event "
+            android:textColor="#ECDFDF"
+            android:textSize="29dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <ImageButton
+            android:layout_width="145dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:width="200dp"
+            android:background="@drawable/shadow"
+            android:onClick="nextbuton"
+            android:src="@drawable/ic_arrow_forward_black_24dp" />
+
+</LinearLayout>
+</LinearLayout>
